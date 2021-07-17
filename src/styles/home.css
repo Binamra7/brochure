@@ -1,0 +1,39 @@
+body {
+  background-color: #ffffff;
+}
+.home {
+  display: grid;
+  /* margin-top: 2rem; */
+  /* margin-left: 2rem; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+h1 {
+  /* display: inline-flex; */
+  color: white;
+  font-weight: 800;
+  align-items: center;
+  font-size: 3rem;
+  justify-content: center;
+  position: absolute;
+  z-index: 99;
+  top: 2rem;
+  left: 10%;
+  right: 10%;
+}
+
+.image {
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  margin-bottom: 10rem;
+  /* opacity: 70%; */
+}
+
+@media only screen and (max-width: 768px) {
+  .image {
+    height: 70vh;
+    margin-bottom: 0;
+  }
+}

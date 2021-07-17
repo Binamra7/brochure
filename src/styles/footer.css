@@ -1,0 +1,55 @@
+/* body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+} */
+html {
+  min-height: 100vh;
+  position: relative;
+}
+/* .bottom-margin {
+  margin-top: 16.2rem;
+} */
+.foot {
+  height: 10rem;
+  width: 100%;
+  bottom: 0;
+  background-color: #0275d8;
+  margin-top: 10rem;
+  position: absolute;
+}
+.icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: red; */
+  top: 35%;
+  right: 45%;
+  left: 45%;
+}
+span + span {
+  margin-left: 2rem;
+}
+.social {
+  /* background-color: rgb(199, 70, 70); */
+  position: relative;
+  height: 3rem;
+  width: 3rem;
+  color: white;
+  transition: 0.3s;
+}
+
+.copy {
+  position: absolute;
+  right: 20%;
+  left: 20%;
+  text-align: center;
+  bottom: 0;
+  color: white;
+}
+.social:hover {
+  color: rgb(173, 184, 218);
+  transform: scale(1.2);
+  transition: 0.3s;
+}

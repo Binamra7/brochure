@@ -1,3 +1,6 @@
+
+
+
 .App {
   text-align: center;
 }
@@ -28,11 +31,46 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* button */
+/* ::-webkit-scrollbar-button {
+        background: rgb(223, 8, 8);
+    } */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: rgb(216, 52, 181);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(225, 180, 226);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(93, 236, 165);
+}
+
+/* The track NOT covered by the handle.
+    ::-webkit-scrollbar-track-piece {
+        background: #000;
+    }
+    /* Corner */
+::-webkit-scrollbar-corner {
+  background: #999;
+}
+
+/* Resizer */
+/* ::-webkit-resizer {
+        background: #111;
+    } */
+/*--------------------^^^^^^Custom scroll ^^^^^^^^^---------------------*/
