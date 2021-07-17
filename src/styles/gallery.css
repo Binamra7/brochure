@@ -18,6 +18,7 @@
   position: relative;
 }
 img {
+  transition: 3s;
   z-index: 9999;
   /* opacity: 50%; */
 }
@@ -66,6 +67,7 @@ img {
     position: relative;
   }
   .pop {
+    transition: 3s;
     /* display: flex; */
     /* box-shadow: 10px 10px 10px 10px solid blue; */
   }
@@ -97,46 +99,6 @@ img {
     width: 500px;
     z-index: 9999;
   }
-}
-
-.box {
-  height: 10px;
-  width: 50px;
-  background-color: rgb(136, 111, 228);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-.cross1,
-.cross2 {
-  height: 5px;
-  width: 30px;
-  background-color: rgb(77, 153, 224);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-.cross1 {
-  position: absolute;
-  transform: rotate(45deg);
-  top: 2rem;
-  right: -16px;
-  /* bottom: 0;
-  left: 0; */
-}
-.cross2 {
-  position: absolute;
-  top: 2rem;
-  right: -16px;
-  /* bottom: 0;
-  left: 0; */
-  transform: rotate(-45deg);
-}
-.cross1,
-.cross2:hover {
-  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {

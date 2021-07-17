@@ -14,6 +14,12 @@ function popup(props) {
                     {/* <img className="close-image" src={Close}
                         onClick={() => props.setTrigger(false)}
                     /> */}
+                <div className="all" onClick={() => props.setTrigger(false)}>
+
+                    <div className="box"></div>
+                        <div className="cross1"></div>
+                        <div className="cross2"></div>
+                </div>
                 
                 {props.children}
             </div>

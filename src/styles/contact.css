@@ -15,7 +15,7 @@
   background-size: cover;
 } */
 .contact-image {
-  width: 1rem;
+  width: 0rem;
 }
 .contact-form {
   height: 100%;
@@ -116,14 +116,15 @@ button {
   }
 
   .contact {
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
   }
   .contact-image {
     height: 20px;
-    width: 36px;
+    width: 30px;
   }
-  img {
+  .contact {
     overflow-y: hidden;
+    overflow-x: hidden;
   }
   .contact-form {
     height: 100%;

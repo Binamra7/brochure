@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import Popup from "../components/popup";
 import { Container, Nav } from "react-bootstrap";
 import "../styles/gallery.css";
@@ -20,7 +20,14 @@ import Painting4 from "../images/painting-4.jpg";
 
 function Gallery() {
   const [Button, setButton] = useState(false);
+  const [trigger, setTrigger] = useState(false);
   const [PopImage, setPopImage] = useState("");
+
+  useEffect(() => {
+    document.addEventListener("mousedown", (event) => {
+      setTrigger(setButton)
+    })
+  })
 
   return (
     <div className="gallery1 row fluid">
@@ -33,9 +40,7 @@ function Gallery() {
                   <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quisquam, quaerat hic natus illo cupiditate doloribus nobis pariatur cum, perspiciatis ipsam a libero tempora repellat incidunt deleniti aperiam optio nisi?
                   </p> */}
-                  <div className="box"></div>
-                    <div className="cross1"></div>
-                      <div className="cross2"></div>
+                  
                   
         </div>
       </Popup>

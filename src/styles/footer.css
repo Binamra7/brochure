@@ -14,7 +14,7 @@ html {
   height: 10rem;
   width: 100%;
   bottom: 0;
-  background-color: #0275d8;
+  background-color: #000000;
   margin-top: 10rem;
   position: absolute;
 }
@@ -49,7 +49,7 @@ span + span {
   color: white;
 }
 .social:hover {
-  color: rgb(173, 184, 218);
+  color: rgb(181, 183, 189);
   transform: scale(1.2);
   transition: 0.3s;
 }
