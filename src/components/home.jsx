@@ -5,6 +5,7 @@ import Typical from "react-typical";
 
 function home() {
     return (
+        <>
         <div className="home">
             <img className="image" src={Painting}/>
             <h1>Hi. I am<br />
@@ -27,9 +28,13 @@ function home() {
                 
                     />
                 </div>
-                </h1>
+
+            </h1>
+            
                     
-        </div>
+            </div>
+            
+            </>
     )
 }
 

@@ -1,6 +1,3 @@
-
-
-
 .App {
   text-align: center;
 }
@@ -33,6 +30,7 @@
 
 body {
   overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -46,28 +44,28 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  border-radius: 30px;
+  border-radius: 1rem;
   background: rgb(216, 52, 181);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(225, 180, 226);
+  background: rgb(231, 14, 104);
 }
 
 /* Track */
-::-webkit-scrollbar-track {
-  background: rgb(93, 236, 165);
-}
+/* ::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+} */
 
 /* The track NOT covered by the handle.
     ::-webkit-scrollbar-track-piece {
         background: #000;
     }
     /* Corner */
-::-webkit-scrollbar-corner {
+/* ::-webkit-scrollbar-corner {
   background: #999;
-}
+} */
 
 /* Resizer */
 /* ::-webkit-resizer {

@@ -31,6 +31,7 @@ function contact() {
           <div className="email">Email: projwalkhadka@gmail.com</div>
         </div>
       </div>
+      
     </div>
   );
 }

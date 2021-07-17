@@ -11,7 +11,7 @@ function footer() {
 
             <div className="icon">
                 <span>
-                    <a href="https://www.facebook.com">
+                    <a target="_blank" href="https://www.facebook.com">
 
                             <FaFacebook className="social"
                 //                 style={{
@@ -21,7 +21,7 @@ function footer() {
                     </a>
             </span>
             <span>
-            <a href="https://www.instagram.com">
+            <a target="_blank" href="https://www.instagram.com">
 
                             <FaInstagram className="social"
                                 // style={{ height: '3rem', width: '3rem', color: 'white' }}

@@ -31,6 +31,7 @@ h1 {
   /* opacity: 70%; */
 }
 
+
 @media only screen and (max-width: 768px) {
   .image {
     height: 70vh;

@@ -65,9 +65,23 @@ img {
   .gallery {
     position: relative;
   }
-  /* .first {
-    opacity: 60%;
+  .pop {
+    /* display: flex; */
+    /* box-shadow: 10px 10px 10px 10px solid blue; */
+  }
+  /* .popup-image {
+    left: 0;
+    height: 60%;
+    width: 50%;
   } */
+  .popup-image {
+    height: 37rem;
+    width: 40rem;
+    border: 2px solid rgb(109, 76, 4);
+    border-radius: 1rem;
+
+    /* box-shadow: 10 px sienna; */
+  }
   .first:hover {
     cursor: pointer;
     left: 0;
@@ -84,6 +98,47 @@ img {
     z-index: 9999;
   }
 }
+
+.box {
+  height: 10px;
+  width: 50px;
+  background-color: rgb(136, 111, 228);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.cross1,
+.cross2 {
+  height: 5px;
+  width: 30px;
+  background-color: rgb(77, 153, 224);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.cross1 {
+  position: absolute;
+  transform: rotate(45deg);
+  top: 2rem;
+  right: -16px;
+  /* bottom: 0;
+  left: 0; */
+}
+.cross2 {
+  position: absolute;
+  top: 2rem;
+  right: -16px;
+  /* bottom: 0;
+  left: 0; */
+  transform: rotate(-45deg);
+}
+.cross1,
+.cross2:hover {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
   .first {
     transition: 0.5s;
