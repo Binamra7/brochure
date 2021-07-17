@@ -1,0 +1,93 @@
+.popup {
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-inner {
+  position: relative;
+  left: 0;
+  padding: 1rem;
+
+  border: 1px solid rgb(50, 75, 134);
+  border-radius: 1rem;
+
+  width: 100%;
+  height: 90vh;
+  max-width: 640px;
+  background-color: rgb(194, 206, 214);
+}
+.popup-inner .close-btn {
+  position: absolute;
+  top: 16px;
+  right: -16px;
+}
+.close-image {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  right: -16px;
+  border-radius: 1rem;
+}
+.close-image:hover {
+  cursor: pointer;
+}
+
+.box {
+  position: absolute;
+  height: 2.4rem;
+  width: 2.4rem;
+  background-color: rgb(136, 111, 228);
+  display: flex;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+
+  right: -10px;
+  border-radius: 1rem;
+}
+.cross1,
+.cross2 {
+  height: 3px;
+  width: 30px;
+  background-color: rgb(165, 176, 179);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  border-radius: 1rem;
+}
+.cross1 {
+  position: absolute;
+  transform: rotate(45deg);
+  top: 2rem;
+  right: -10px;
+  /* bottom: 0;
+  left: 0; */
+}
+.cross2 {
+  position: absolute;
+  top: 2rem;
+  right: -10px;
+  /* bottom: 0;
+  left: 0; */
+  transform: rotate(-45deg);
+}
+.box:hover {
+  cursor: pointer;
+}
+.all:hover .cross1,
+.all:hover .cross2 {
+  background-color: white;
+  cursor: pointer;
+}
