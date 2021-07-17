@@ -31,13 +31,18 @@ function gallery() {
 
      return (
         // <Container>
+         
+         
 
         <div
-            className="gallery1 row fluid" /*onClick={() => {
-                alert("hello world")
-                }}*/>
+        className="gallery1 row fluid" /*onClick={() => {
+            alert("hello world")
+        }}*/>
                     
             {/* </div> */}
+                    <Popup trigger={true}>
+                        <h1>hello world</h1>
+                    </Popup>
             <div 
                 className="top-margin">
                 <div className="text1">

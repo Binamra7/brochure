@@ -37,13 +37,13 @@ img {
   padding: 0;
   position: fixed auto;
 }
-.top-margin,
+/* .top-margin,
 .second,
 .third {
-  /* margin-top: 4rem;
-  margin-bottom: 3rem; */
-  /* display: inline; */
-}
+  margin-top: 4rem;
+  margin-bottom: 3rem; 
+  display: inline;
+} */
 .text1,
 .text2,
 .text3 {
@@ -65,9 +65,9 @@ img {
   .gallery {
     position: relative;
   }
-  .first {
-    /* opacity: 60%; */
-  }
+  /* .first {
+    opacity: 60%;
+  } */
   .first:hover {
     cursor: pointer;
     left: 0;
